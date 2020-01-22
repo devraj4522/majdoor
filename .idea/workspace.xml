@@ -2,65 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98620f38-86d0-4489-8682-a03853852945" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/untitled1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/css_slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/2-man-on-construction-site-during-daytime-159306(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/2-man-on-construction-site-during-daytime-159306.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/Testimonials.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/bb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/bg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/bg3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/build-builder-construction-equipment-585419.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/choose1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/choose2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/choose3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/footer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/s1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/s2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/s3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/s4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/s5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/s6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/services.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/team1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/team2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/team3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/team4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/ts1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/images/ts2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled1/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled1/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled1/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled1/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/JavaScript/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/blog/javascript/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/css_slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/2-man-on-construction-site-during-daytime-159306(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/2-man-on-construction-site-during-daytime-159306.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/Testimonials.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/bb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/bg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/bg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/build-builder-construction-equipment-585419.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/choose1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/choose2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/choose3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/s1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/s2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/s3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/s4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/s5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/s6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/services.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/team1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/team2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/team3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/team4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/ts1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/ts2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/basics.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/basics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled1/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,11 +57,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -85,16 +78,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/templates/blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\PycharmProjects\majdoor\blog\static\blog" />
+      <recent name="C:\Users\Lenovo\PycharmProjects\majdoor\blog\templates\blog" />
+      <recent name="C:\Users\Lenovo\PycharmProjects\majdoor\blog\static\blog\css" />
       <recent name="C:\Users\Lenovo\PycharmProjects\untitled1\blog\templates\blog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -125,14 +122,14 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -151,6 +148,16 @@
       <option name="presentableId" value="Default" />
       <updated>1579362912468</updated>
       <workItem from="1579362921740" duration="5165000" />
+      <workItem from="1579437725246" duration="6635000" />
+      <workItem from="1579540372689" duration="8223000" />
+      <workItem from="1579607360910" duration="1336000" />
+      <workItem from="1579624939350" duration="3082000" />
+      <workItem from="1579632384510" duration="67000" />
+      <workItem from="1579632467488" duration="191000" />
+      <workItem from="1579632675395" duration="22000" />
+      <workItem from="1579633147119" duration="5257000" />
+      <workItem from="1579697370643" duration="379000" />
+      <workItem from="1579698106610" duration="1281000" />
     </task>
     <servers />
   </component>
@@ -162,7 +169,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
