@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="98620f38-86d0-4489-8682-a03853852945" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/basics.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/basics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +136,7 @@
       <workItem from="1579760963592" duration="7160000" />
       <workItem from="1579778407402" duration="15028000" />
       <workItem from="1579797491632" duration="962000" />
-      <workItem from="1579798476414" duration="1336000" />
+      <workItem from="1579798476414" duration="11299000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Currently working alone&quot;">
       <created>1579708141001</created>

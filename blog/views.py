@@ -4,16 +4,15 @@ from .models import Post
 
 # Create your views here.
 def index(request):
+    posts = Post.objects.all()
+    parms = {'post': posts}
 
-    return render(request, 'blog/index.html', )
+    return render(request, 'blog/index.html', parms)
 
 def about(request):
     posts = Post.objects.all()
     parms = {'post': posts}
     return render(request, 'blog/about.html',parms)
-
-def services(request):
-    return render(request, 'blog/services.html')
 
 def contact(request):
     return render(request, 'blog/contact.html')
@@ -26,3 +25,7 @@ def register(request):
 
 def menu(request):
     return render(request, 'blog/menu.html')
+
+def single(request):
+    return render(request, 'blog/single.html')
+

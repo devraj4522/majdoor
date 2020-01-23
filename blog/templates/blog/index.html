@@ -344,6 +344,27 @@
 	</section>
 	<!-- //blog -->
 
+     <div class="col-sm-6 ">
+    <table class="table table-hover table-bordered">
+  <thead>
+    <tr>
+        <th scope="col"> Latest Updates </th>
+      <th scope="col">Read More</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        {% for i in post %}
+
+      <td>{{ i.post_name }}</td>
+      <td><a href="single.html" class="button-w3ls active mt-4">Read More
+							</a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+
 	<!-- slides images -->
 	<section class="wthree-slider" id="masthead">
 
@@ -374,5 +395,5 @@
 
 
 
-<script src="../static/blog/javascript/main.js"
+<script src="../static/blog/javascript/main.js"></script>
 {% endblock %}
