@@ -1,12 +1,16 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Post
 
 # Create your views here.
 def index(request):
-    return render(request, 'blog/index.html')
+
+    return render(request, 'blog/index.html', )
 
 def about(request):
-    return render(request, 'blog/about.html')
+    posts = Post.objects.all()
+    parms = {'post': posts}
+    return render(request, 'blog/about.html',parms)
 
 def services(request):
     return render(request, 'blog/services.html')
