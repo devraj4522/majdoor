@@ -29,3 +29,7 @@ def menu(request):
 def single(request):
     return render(request, 'blog/single.html')
 
+def postView(request, name):
+    post = Post.objects.filter(post_name = name)
+    print(post)
+    return render(request, "blog/post.html", {'post':post[0]})

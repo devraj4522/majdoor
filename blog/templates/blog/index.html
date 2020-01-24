@@ -344,6 +344,7 @@
 	</section>
 	<!-- //blog -->
 
+    <!-- //Table -->
      <div class="col-sm-6 ">
     <table class="table table-hover table-bordered">
   <thead>
@@ -357,13 +358,14 @@
         {% for i in post %}
 
       <td>{{ i.post_name }}</td>
-      <td><a href="single.html" class="button-w3ls active mt-4">Read More
+      <td><a href="/posts/{{ i.post_name }}" class="button-w3ls active mt-4">Read More
 							</a></td>
     </tr>
     {% endfor %}
   </tbody>
 </table>
 </div>
+<!-- Table -->
 
 	<!-- slides images -->
 	<section class="wthree-slider" id="masthead">
