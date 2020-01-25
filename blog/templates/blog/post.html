@@ -33,7 +33,6 @@
 							<div class="b-grid-top">
 								<div class="blog_info_left_grid">
 									<a href="single.html">
-										<img src="/media/{{ post.post_img }}" class="img-fluid" alt="">
 									</a>
 								</div>
 							</div>
@@ -41,69 +40,60 @@
 							<h2>
 								<a href="single.html" class="single-text text-da font-weight-light">{{ post.post_heading }}</a>
 							</h2>
-                            <h5 class="ab-info-main">Post Updated On:<span style="color: #05c46b; margin-left: 5px">{{ post.post_publish_date }}</span></h5>
 
-                            <div class="container-fluid">
+
+                            <div class="container my-2">
                                 <div class="row">
-                                {{ post.post_short_desc }}
-                                    </div>
+                            <div class="container-fluid col sm-3">
+                                <h5 class="ab-info-main" style="color: #05c46b;">Post Updated On:</h5>
                             </div>
-                           <div class="row">
-							<p><span>{{ post.post_body }}</span></p>
-                               </div>
-							<p class="my-3">Ullamco labor nisi ut aliquip exea commodo consequat duis aute irudre dolor
-								in elit sed uta
-								labore dolore reprehender</p>
-							<p>Jabore et dolore magna aliqua uta enim ad minim ven iam quis nostrud exercitation ullamco
-								labor nisi ut
-								<span class="text-blog-single">aliquip exea commodo consequat duis aute irudre dolor in
-									elit
-									sed uta labore dolore
-									reprehender</span>
-							</p>
-							<div class="mt-sm-4 mt-3">
-								<p>Elit sedc dnmo eiusmod tempor incididunt ut labore et dolore magna aliqua uta enim ad
-									minim ven iam quis
-									nostrud
-									exercitation ullamco labor nisi ut aliquip exea commodo consequat duis aute irudre
-									dolor in elit sed uta
-									labore
-									dolore reprehender</p>
-								<p class="my-3">Ullamco labor nisi ut aliquip exea commodo consequat duis aute irudre
-									dolor in elit sed uta
-									labore dolore reprehender</p>
-								<p>Jabore et dolore magna aliqua uta enim ad minim ven iam quis nostrud exercitation
-									ullamco labor nisi ut
-                                    aliquip exea
-                                    <span class="text-blog-single">commodo consequat duis aute irudre dolor in elit sed
-                                        uta
-                                        labore dolore reprehender</span>
-                                </p>
+                                <div class="container-fluid col-sm-9">
+                            <span class="mx-2">{{ post.post_publish_date }}</span></h5>
                             </div>
 
+                                <div class="container-fluid col sm-3">
+                                <h5 class="ab-info-main" style="color: #05c46b;">Post Short Description :</h5>
+                            </div>
+                                <div class="container-fluid col-sm-9">
+                            <span class="mx-2">{{ post.post_short_desc }}</span></h5>
+                            </div>
+
+                            </div>
+                            </div>
+                                {{ post.post_short_desc }}
+                               {{ post.post_body }}
 
                             <!-- //Table -->
-                            <div class="container-fluid bg-white ">
+                            <div class="container-fluid bg-white my-2">
                                 <div class="row">
                             <h3>
-                                <a href="single.html" class="single-text text-da font-weight-light">{{ post.post_name }}</a>
+                                <a href="single.html" class="single-text   text-secondary font-weight-bold">{{ post.post_name }}</a>
                             </h3>
 
                                 <table class="table table-hover table-bordered">
                                     <thead>
                                     <tr>
-                                        <th scope="col"> Latest Updates </th>
-                                        <th scope="col">Read More</th>
+                                        <td colspan="12" scope="col" class="text-center text-capitalize font-weight-bold text-danger"> <h3>{{ post.post_heading }}</h3>
+                                        <h4 class="my-1 font-weight-bold text-center text-capitalize text-success"> {{ post.post_sub_heading }}</h4>
+                                        </td>
                                     </tr>
+                                    <tr>
+                                        <td colspan="12" class="text-center font-weight-bold"><h4>Impotant Links:</h4></td>
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <td colspan="6" class="text-center font-weight-bold"><h4 class="text-primary">{{ post.post_link_of_destination_heading }}</h4></td>
+                                        <td colspan="6" class="text-center font-weight-bold">
+                                            <a href="{{ post.post_link_of_destination }}" class="button-w3ls active mt-4">Read More
+								<span class="fa fa-caret-right ml-1" aria-hidden="true"></span></a>
+                                        </td>
+                                    </tr>
+
                                     </thead>
                                     <tbody>
-                                    <tr>
 
-
-                                            <td>{{ post.post_heading }}</td>
-                                            <td><a href="/posts/{{ post.post_sub_heading }}" class="button-w3ls active mt-4">Read More
-                                            </a></td>
-                                            </tr>
 
                                     </tbody>
                                 </table>
