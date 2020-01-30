@@ -2,11 +2,7 @@
 {% block body %}
 
 
-	<!-- banner -->
-	<div class="main-banner-2">
-
-	</div>
-	<!-- //banner -->
+	
 	<!-- page details -->
 	<div class="breadcrumb-agile bg-light py-2">
 		<ol class="breadcrumb bg-light m-0">
@@ -23,7 +19,7 @@
 		<div class="container py-xl-5 py-lg-3">
 			<div class="title-section text-center mb-md-5 mb-4">
 				<p class="w3ls-title-sub">Info</p>
-				<h3 class="w3ls-title">Name Of Post: <span>{{ post.post_name }}</span></h3>
+				<h3 class="w3ls-title ">Name Of Post: <span>{{ post.post_name }}</span></h3>
 			</div>
 			<div class="inner-sec">
 				<div class="row">
@@ -36,32 +32,25 @@
 									</a>
 								</div>
 							</div>
+							
+							<div class=" col-12 my-sm-4 my-2 ">
+								<div class="row ">
+									<div>
+										<strong><span class="ml-sm-3 text-success">Post Updated On :</span></strong>
+										{{ post.post_publish_date }}
+										</div>
+								</div>
+								<div class="row text-center ">
+								<div>
+								<strong><span class="ml-sm-3 text-success">Post Short Desc :</span></strong>
+                                    {{ post.post_short_desc }}
+									</div>
 
-							<h2>
-								<a href="single.html" class="single-text text-da font-weight-light">{{ post.post_heading }}</a>
-							</h2>
+								</div>
+							</div>
 
+								{{ post.post_body }}
 
-                            <div class="container my-2">
-                                <div class="row">
-                            <div class="container-fluid col sm-3">
-                                <h5 class="ab-info-main" style="color: #05c46b;">Post Updated On:</h5>
-                            </div>
-                                <div class="container-fluid col-sm-9">
-                            <span class="mx-2">{{ post.post_publish_date }}</span></h5>
-                            </div>
-
-                                <div class="container-fluid col sm-3">
-                                <h5 class="ab-info-main" style="color: #05c46b;">Post Short Description :</h5>
-                            </div>
-                                <div class="container-fluid col-sm-9">
-                            <span class="mx-2">{{ post.post_short_desc }}</span></h5>
-                            </div>
-
-                            </div>
-                            </div>
-                                {{ post.post_short_desc }}
-                               {{ post.post_body }}
 
                             <!-- //Table -->
                             <div class="container-fluid bg-white my-2">
@@ -86,7 +75,7 @@
                                     <tr>
                                         <td colspan="6" class="text-center font-weight-bold"><h4 class="text-primary">{{ post.post_link_of_destination_heading }}</h4></td>
                                         <td colspan="6" class="text-center font-weight-bold">
-                                            <a href="{{ post.post_link_of_destination }}" class="button-w3ls active mt-4">Read More
+                                            <a href="{{ post.post_link_of_destination }}" class="button-w3ls active mt-4" target="_blank">Read More
 								<span class="fa fa-caret-right ml-1" aria-hidden="true"></span></a>
                                         </td>
                                     </tr>
@@ -114,10 +103,10 @@
 								aute irudre dolor in elit sed uta labore dolore reprehender</p>
 						</div>
 
-						<div class="comment-top">
+						<div class="comment-top my-lg-5 my-sm-2">
 							<h4>Comments</h4>
 							<div class="media">
-								<img src="images/te3.jpg" alt="" class="img-fluid" />
+								<img src="../../static/blog/images/c2.png" alt="" class="img-fluid" />
 								<div class="media-body">
 									<h5 class="mt-0">Joseph Goh</h5>
 									<p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. id dignissim
@@ -128,7 +117,7 @@
 							</div>
 							<div class="media mt-3">
 								<a class="d-flex pr-3" href="#">
-									<img src="images/te2.jpg" alt="" class="img-fluid" />
+									<img src="../../static/blog/images/c2.png" alt="" class="img-fluid" />
 								</a>
 								<div class="media-body">
 									<h5 class="mt-0">Richard Spark</h5>
@@ -159,140 +148,80 @@
 										<textarea class="form-control" name="Message" placeholder="Message..."
 											required=""></textarea>
 									</div>
-									<button type="submit" class="btn btn-primary submit">Submit</button>
+									<!-- Button trigger modal -->
+									<button  type="button" type="submit" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter">Submit</button>
+									
 								</form>
+								
+
+								
+								
 							</div>
+
+							
 						</div>
 					</div>
 					<!-- //left side -->
 					<!-- right side -->
 					<aside class="col-lg-4 right-blog-con text-right mt-lg-0 mt-5">
-						<div class="right-blog-info text-left">
-							<div class="tech-btm">
-								<h4>Sign up to our newsletter</h4>
-								<p>Pellentesque dui, non felis. Maecenas male </p>
-								<form action="#" method="post">
-									<input class="form-control" name="email" type="email" placeholder="Email"
-										required="">
-									<input class="form-control" type="submit" value="Subscribe">
-								</form>
-							</div>
-							<div class="category-story tech-btm">
-								<h4>More Stories</h4>
-								<ul class="list-unstyled">
-									<li class="border-bottom mb-3 pb-3">
-										<i class="fa fa-angle-right mr-2"></i>
-										<a href="#" class="text-blog-single">sed do eiusmod tempor incididunt ut labore
-											et
-											dolore magna aliqua</a>
-									</li>
-									<li class="border-bottom mb-3 pb-3">
-										<i class="fa fa-angle-right mr-2"></i>
-										<a href="#" class="text-blog-single">sed do eiusmod tempor incididunt ut labore
-											et
-											dolore magna aliqua</a>
-									</li>
-									<li class="border-bottom mb-3 pb-3">
-										<i class="fa fa-angle-right mr-2"></i>
-										<a href="#" class="text-blog-single">sed do eiusmod tempor incididunt ut labore
-											et
-											dolore magna aliqua</a>
-									</li>
-									<li class="border-bottom mb-3 pb-3">
-										<i class="fa fa-angle-right mr-2"></i>
-										<a href="#" class="text-blog-single">sed do eiusmod tempor incididunt ut labore
-											et
-											dolore magna aliqua</a>
-									</li>
-									<li class="border-bottom mb-3 pb-3">
-										<i class="fa fa-angle-right mr-2"></i>
-										<a href="#" class="text-blog-single">sed do eiusmod tempor incididunt ut labore
-											et
-											dolore magna aliqua</a>
-									</li>
-									<li>
-										<i class="fa fa-angle-right mr-2"></i>
-										<a href="#" class="text-blog-single">sed do eiusmod tempor incididunt ut labore
-											et
-											dolore magna aliqua</a>
-									</li>
-								</ul>
-							</div>
-							<div class="tech-btm">
-								<img src="images/blog1.jpg" class="img-fluid" alt="">
-							</div>
-							<div class="tech-btm">
-								<h4>Categories</h4>
-								<ul class="list-group single">
-									<li class="list-group-item d-flex justify-content-between align-items-center">
-										Cras justo odio
-										<span class="badge badge-primary badge-pill">14</span>
-									</li>
-									<li class="list-group-item d-flex justify-content-between align-items-center">
-										Dapibus ac facilisis in
-										<span class="badge badge-primary badge-pill">2</span>
-									</li>
-									<li class="list-group-item d-flex justify-content-between align-items-center">
-										Morbi leo risus
-										<span class="badge badge-primary badge-pill">1</span>
-									</li>
-								</ul>
-							</div>
-							<div class="tech-btm">
-								<h4>Top stories of the week</h4>
-
-								<div class="blog-grids row mb-3">
-									<div class="col-md-5 blog-grid-left">
-										<a href="single.html">
-											<img src="images/blog1.jpg" class="img-fluid" alt="">
-										</a>
-									</div>
-									<div class="col-md-7 blog-grid-right mt-2">
-										<h5>
-											<a href="single.html">Pellentesque dui, non felis. Maecenas male non felis
-											</a>
-										</h5>
-										<div class="sub-meta">
-											<span>
-												<i class="far fa-clock"></i> 20 Jan, 2018</span>
-										</div>
-									</div>
+						<div class="right-blog-info">
+							<div class="category-story tech-btm p-5">
+								<div class="row pb-2 mx-auto">
+								<h4><strong>More Stories</strong></h4>
 								</div>
-								<div class="blog-grids row mb-2">
-									<div class="col-md-5 blog-grid-left">
-										<a href="single.html">
-											<img src="images/blog2.jpg" class="img-fluid" alt="">
-										</a>
-									</div>
-									<div class="col-md-7 blog-grid-right mt-3">
-										<h5>
-											<a href="single.html">Pellentesque dui, non felis. Maecenas male non felis
-											</a>
-										</h5>
-										<div class="sub-meta">
-											<span>
-												<i class="far fa-clock"></i> 20 Feb, 2018</span>
-										</div>
-									</div>
+								<div class="row">
+									<ul class="list-unstyled">
+										<li class="border-bottom mb-3 pb-3">
+											<i class="fa fa-angle-right mr-2"></i>
+											<a href="#" class="text-blog-single">sed do eiusmod tempor incididunt ut labore
+												et
+												dolore magna aliqua</a>
+										</li>
+										<li class="border-bottom mb-3 pb-3">
+											<i class="fa fa-angle-right mr-2"></i>
+											<a href="#" class="text-blog-single">sed do eiusmod tempor incididunt ut labore
+												et
+												dolore magna aliqua</a>
+										</li>
+										<li class="border-bottom mb-3 pb-3">
+											<i class="fa fa-angle-right mr-2"></i>
+											<a href="#" class="text-blog-single">sed do eiusmod tempor incididunt ut labore
+												et
+												dolore magna aliqua</a>
+										</li>
+										<li class="border-bottom mb-3 pb-3">
+											<i class="fa fa-angle-right mr-2"></i>
+											<a href="#" class="text-blog-single">sed do eiusmod tempor incididunt ut labore
+												et
+												dolore magna aliqua</a>
+										</li>
+										<li class="border-bottom mb-3 pb-3">
+											<i class="fa fa-angle-right mr-2"></i>
+											<a href="#" class="text-blog-single">sed do eiusmod tempor incididunt ut labore
+												et
+												dolore magna aliqua</a>
+										</li>
+										<li>
+											<i class="fa fa-angle-right mr-2"></i>
+											<a href="#" class="text-blog-single">sed do eiusmod tempor incididunt ut labore
+												et
+												dolore magna aliqua</a>
+										</li>
+									</ul>
 								</div>
 							</div>
-							<div class="single-gd tech-btm">
-								<h4>Recent Post</h4>
-								<div class="blog-grids">
-									<div class="blog-grid-left">
-										<a href="single.html">
-											<img src="images/blog1.png" class="img-fluid" alt="">
-										</a>
-									</div>
-									<div class="blog-grid-right">
-										<h5 class="mt-0">
-											<a href="single.html">Pellentesque dui, non felis. Maecenas male</a>
-										</h5>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
+							<div class="tech-btm my-lg-5 my-sm-2">
+								
+									<h4>Sign up to our newsletter</h4>
+									<p>Pellentesque dui, non felis. Maecenas male </p>
+									<form action="#" method="post">
+										<input class="form-control" name="email" type="email" placeholder="Email"
+											required="">
+										<input class="form-control form-btn" type="submit" value="Subscribe">
+									</form>
+							
 							</div>
-						</div>
+							</div>
 					</aside>
 					<!-- //right side -->
 				</div>
@@ -315,4 +244,25 @@
 	</a>
 	<!-- //move top icon -->
 
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLongTitle">Thanks!</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+		  Your comment will be added after getting verified.
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <!-- Modal -->
 {% endblock %}

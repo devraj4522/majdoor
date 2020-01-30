@@ -9,11 +9,12 @@ body {
     padding: 0;
     margin: 0;
     background: #FFF;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Domine', sans-serif;
 }
 
 body a:hover {
     text-decoration: none;
+    color: #e53a36;
 }
 
 body a:focus,
@@ -43,8 +44,8 @@ p {
     padding: 0;
     font-size: 17px;
     line-height: 25px;
-    color: #999;
-    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-family: 'Domine', sans-serif;
     font-weight: normal;
 }
 
@@ -317,7 +318,7 @@ li>a:only-child:after {
         text-decoration: none;
         border: none;
         float: right;
-        background-color: #eee;
+        background-color: #e53935;
         color: #111;
         border-radius: 4px;
         -webkit-border-radius: 4px;
@@ -476,7 +477,7 @@ p.account-w3ls a {
 }
 
 button.submit {
-    background: #ff3f34;
+    background: #05c46b;
     color: #fff;
     font-size: 15px;
     letter-spacing: 2px;
@@ -507,7 +508,7 @@ button.submit {
 }`
 
 .banner-info_agile_w3ls h5 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Domine', sans-serif;
     font-size: 24px;
     letter-spacing: 3px;
 }
@@ -572,7 +573,7 @@ a.button-w3ls:hover {
 }
 
 .banner-top3 {
-    background: url(../images/3.jpg) no-repeat bottom;
+    background: url(../images/3.png) no-repeat bottom;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -596,7 +597,7 @@ a.button-w3ls:hover {
 
 /* about */
 .about {
-    background: url(../images/bg1.jpg) no-repeat left;
+    background: url(../images/bg1.png) no-repeat left;
     background-size: cover;
     -webkit-background-size: contain;
     -moz-background-size: cover;
@@ -608,16 +609,20 @@ a.button-w3ls:hover {
 h3.w3ls-title {
     font-size: 40px;
     font-weight: 600;
-    color: #333;
+    color: #000;
 }
 
+.border-bottom{
+    border-bottom: 2px solid #000 !important;
+}
 h3.w3ls-title span {
     color: #ff3f34;
+    
 }
 
 p.w3ls-title-sub {
     font-size: 22px;
-    color: #353535;
+    color: #000;
     letter-spacing: 3px;
 }
 
@@ -637,6 +642,9 @@ p.w3ls-title-sub {
     position: relative;
     z-index: 1;
     background: #fff;
+}
+.about-index{
+    background: #ededed !important;
 }
 /* //about */
 
@@ -822,7 +830,7 @@ img.img-fluid.sub-img {
 
 /* footer */
 footer {
-    background: #17181b;
+    background: #000;
 }
 
 h2 a.logo {
@@ -832,13 +840,13 @@ h2 a.logo {
 .footer-text p,
 .footer-text p a,
 .contact-info p {
-    color: #727377;
+    color: #fff;
     font-size: 15px;
 }
 
 .footer-title h3 {
     font-size: 24px;
-    color: #f3f3f3;
+    color: #fff;
     letter-spacing: 1px;
 }
 
@@ -851,7 +859,7 @@ h2 a.logo {
 .info-form-right input[type="email"],
 .info-form-right textarea {
     color: #000;
-    background: #f7f7f7;
+    background: #fff;
     outline: none;
     font-size: 14px;
     padding: 9px;
@@ -863,6 +871,14 @@ h2 a.logo {
 .info-form-right textarea {
     resize: none;
     min-height: 6em;
+}
+
+.form-btn{
+    color: #fff;
+    background-color: #05c46b;
+}
+.form-btn:hover{
+    background-color: #ee6760;
 }
 
 button.submit-contact {
@@ -889,10 +905,11 @@ button.submit-contact:hover {
 .cpy-right p {
     letter-spacing: 1px;
     font-size: 14px;
+    color: #fff;
 }
 
 .cpy-right p a {
-    color: #eee;
+    color: #fff;
 }
 
 .cpy-right p a:hover {
@@ -903,16 +920,10 @@ button.submit-contact:hover {
 /* footer */
 
 /* inner pages */
-.main-banner-2 {
-    background: url(../images/inner-bg.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    min-height: 300px;
-}
 
+.header-boarder{
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.25);
+}
 /* page details */
 .breadcrumb-agile {
     box-shadow: 2px 3px 12px 1px rgba(0, 0, 0, 0.15);
@@ -951,7 +962,7 @@ button.submit-contact:hover {
 }
 
 h4.p-mask {
-    color: #636363;
+    color: #fff;
     font-size: 20px;
     letter-spacing: 1px;
     text-align: center;
@@ -1062,7 +1073,7 @@ h5.address {
 }
 
 .address-right p a {
-    color: #999;
+    color: #000;
 }
 
 .address-right p a:hover {
@@ -1073,7 +1084,7 @@ h5.address {
 .contact-agileinfo input[type="email"],
 .contact-agileinfo textarea {
     width: 100%;
-    color: #999;
+    color: #000;
     background: none;
     outline: none;
     font-size: 14px;
@@ -1619,6 +1630,18 @@ h3.title-sub span {
     .img-blog-2 {
         bottom: -31%;
     }
+}
+
+.fa-color{
+    color: #ff3f34;
+}
+
+.text-blog-single{
+    color: #000;
+}
+.category-story{
+    background: #f2f2f2;
+    text-align: center !important;
 }
 
 /* //responsive */
