@@ -4,6 +4,7 @@
     <list default="true" id="98620f38-86d0-4489-8682-a03853852945" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +169,7 @@
       <workItem from="1580388856616" duration="1015000" />
       <workItem from="1580402229070" duration="10611000" />
       <workItem from="1583161784531" duration="428000" />
-      <workItem from="1583162635444" duration="257000" />
+      <workItem from="1583162635444" duration="568000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Currently working alone&quot;">
       <created>1579708141001</created>
