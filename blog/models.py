@@ -1,22 +1,30 @@
 from django.db import models
+from django.utils import timezone
+from django.contrib.auth.models import User
 
 # Create your models here.
 class Post(models.Model):
+    # Status of my post either it is published or it is in draft.
+    STATUS_CHOICES = (('draft', 'Draft'),
+                      ('published', 'Published'))
+
     post_id = models.AutoField
-    post_name = models.CharField(max_length=50)
-    post_publish_date = models.DateTimeField(auto_now=False,default='auto_now')
-    post_heading = models.CharField(default="", max_length=50)
-    post_sub_heading = models.CharField(default="", max_length=100)
-    post_body = models.TextField(default="")
+    title = models.CharField(max_length=50)
+    heading = models.CharField(default="", max_length=50)
+    sub_heading = models.CharField(default="", max_length=100)
+    body = models.TextField(default="")
+    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='blog_posts',default='Devraj')
+    publish_date = models.DateTimeField(default=timezone.now())
+    created = models.DateTimeField(auto_now_add=False, default="")
+    updated = models.DateTimeField(auto_now=False, default="")
+    slug = models.SlugField(max_length=50, unique_for_date=publish_date, default="slug")
+    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='draft')
 
+    class Meta:
+        ordering = ('-publish_date',)
 
-
-    post_link_of_destination_heading = models.CharField(default="", max_length=50)
-    post_link_of_destination =models.URLField(default="" )
-    post_img = models.ImageField(default="", upload_to='blog/images',blank=True)
-    post_short_desc = models.CharField(default="", max_length=150)
     def __str__(self):
-        return self.post_name
+        return self.title
 
 
 
